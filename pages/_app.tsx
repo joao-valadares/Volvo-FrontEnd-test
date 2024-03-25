@@ -1,11 +1,16 @@
-import { HelloWorld } from "../src/components/HelloWorld";
 import "../public/css/styles.css";
 import React from "react";
+import { Block, EstaPronto, Header, Hero, PQVolvo, TodosModelos } from "../src/components";
 
 function HomePage() {
   return (
     <React.StrictMode>
-      <HelloWorld />
+      <Header />
+      <Hero />
+      <TodosModelos />
+      <PQVolvo />
+      <EstaPronto />
+      <Block />
     </React.StrictMode>
   );
 }
